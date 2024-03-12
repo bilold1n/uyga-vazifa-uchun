@@ -6,13 +6,13 @@
 // }
 // console.log(hajm());
 //2
-// let son = prompt("son kiriting");
-// let son1 = prompt("son kiriting");
+// let son = prompt("son1 ni kiriting:");
+// let son1 = prompt("son2 ni kiriting:");
 // let newarr = prompt("raqamlar kiriting");
 // function bormi(params) {
 //   let resalt = [];
 //   newarr.split(",").forEach((element) => {
-//     if ([element] >= son && [element] <= son1) {
+//     if (element > son && element < son1) {
 //       resalt.push(element);
 //     }
 //   });
