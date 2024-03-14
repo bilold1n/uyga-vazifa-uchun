@@ -57,13 +57,18 @@
 // }
 // arr1(arr);
 //5
-let arr = +prompt("raqam kiriting");
-function hisob(newarr) {
-  let arr2 = [];
-  if (isNaN(arr) == true) {
-    console.log(arr2);
-  } else {
-    arr2.push(arr2);
-  }
-}
-hisob(arr);
+// let arr = +prompt("raqam kiriting");
+// function hisob(newarr) {
+//   let arr2 = [];
+//   do {
+//     newarr = +prompt("raqam kiriting");
+//     arr2.push(newarr);
+//   } while (isNaN(newarr) == false);
+//   if (isNaN(arr2.lastIndexOf) == false) {
+//     console.log(arr2);
+//   } else {
+//     console.log(arr2);
+//   }
+// }
+
+// hisob(arr);
