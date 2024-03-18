@@ -92,18 +92,12 @@
 // }
 // hisob(min); domla bu faqat uch xonali sonlar uchun masalada ham shunaqa edi.
 //9
-// let son1 = 5;
-// let son2 = 7;
-// function random() {
-//   let resalt = Math.floor(Math.random() * (son2 + 1));
-//   if (resalt >= son1 && resalt <= son2) {
-//     console.log(resalt);
-//   } else {
-//     console.log(resalt + "-bu son son1 va son2 oralig'ida emas");
-//     console.log("sahifani yangilasangiz chiqadi");
-//   }
-// }
-// random();
+let son1 = 5;
+let son2 = 10;
+function random(x, y) {
+  return Math.floor(Math.random() * (y - x) + x);
+}
+console.log(random(son1, son2));
 //10
 // let min = 370;
 // function hisob(son) {
