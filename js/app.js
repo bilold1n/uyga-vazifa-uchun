@@ -1,11 +1,12 @@
 //1
-// let arr = "div*6";
+// let arr = "l*2";
 // function arr1(arr1) {
-//   let newarr = [];
-//   for (let i = 0; i < arr1.slice(arr1.lastIndexOf()); i++) {
-//     newarr.push("<div></div>");
+//   let newarr = arr1.split("*");
+//   let resalt = "";
+//   for (let i = 0; i < +newarr[1]; i++) {
+//     resalt += `<${arr1[0]}></${arr1[0]}>$>`;
 //   }
-//   console.log(newarr);
+//   console.log(resalt);
 // }
 // arr1(arr);
 //2
